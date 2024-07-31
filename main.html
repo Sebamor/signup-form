@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form</title>
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="imageSide">
+            <div id="pageTitle">
+                <img id='logo1' src="/assets/vintage-1829851_640.png" alt="Ani Logo">
+                <h1>Ani News</h1>
+                <img id='logo2' src="/assets/vintage-1829851_640.png" alt="Ani Logo">
+            </div>
+        </div>
+        <div id="infoSide">
+            <div id="signupFacts">
+                <span>Welcome to Ani News - your gateway to the vibrant world of seasonal anime! Here, you'll dive into the latest and greatest anime releases, discover hidden gems, and stay up-to-date with the freshest episodes each season has to offer. From gripping new series to fan-favorite continuations, we've got everything you need to fuel your anime passion.</span>
+            </div>
+            <div id="formContainer">
+                <h2>Lets do this!</h2>
+                <form action="/blank" method="post">
+                    <ul id="row1">
+                        <li>
+                            <label for="fName">First Name:</label>
+                            <input id="fName" type="text" placeholder="First Name" name="first_name" required>
+                        </li>
+                        <li>
+                            <label for="lName">Last Name:</label>
+                            <input id='lName' type="text" placeholder="Last Name" name="last_name" required>
+                        </li>
+                        <li>
+                            <label for="password">Password:</label>
+                            <input id="password" type="password" name="password" required>
+                        </li>
+                    </ul>
+                    <ul id="row2">
+                        <li>
+                            <label for="telephone">Phone Number:</label>
+                            <input id="telephone" type="tel" placeholder="999-999-9999" name="telephone" required>
+                        </li>
+                        
+                        <li>
+                            <label for="email">Email:</label>
+                            <input id="email" type="email" placeholder="your@email.com" name="email" required>
+                        </li>
+                        <li>
+                            <label for="cPassword">Confirm Password</label>
+                            <input id="cPassword" type="password" name="password_confirmation" required>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div id="buttonContainer">
+                <button type="submit">Create Account</button>
+                <span>Already have an account?</span>
+                <a href="/blank">Log in</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
